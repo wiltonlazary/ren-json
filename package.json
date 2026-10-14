@@ -3,10 +3,19 @@
   "version": "0.1.0",
   "description": "A ren-core view rendered once to what it means, as data: nodes by ARIA role and microdata items, the visual hierarchy dissolved, after its tasks settle. No hydration.",
   "type": "module",
-  "private": true,
-  "license": "UNLICENSED",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wiltonlazary/ren-json.git"
+  },
+  "homepage": "https://github.com/wiltonlazary/ren-json#readme",
+  "bugs": {
+    "url": "https://github.com/wiltonlazary/ren-json/issues"
+  },
   "sideEffects": false,
-  "engines": { "node": ">=22.15" },
+  "engines": {
+    "node": ">=22.15"
+  },
   "files": [
     "src",
     "types",
@@ -14,7 +23,10 @@
   ],
   "types": "./types/index.d.ts",
   "exports": {
-    ".": { "types": "./types/index.d.ts", "default": "./src/index.js" }
+    ".": {
+      "types": "./types/index.d.ts",
+      "default": "./src/index.js"
+    }
   },
   "scripts": {
     "types": "node scripts/types.mjs",

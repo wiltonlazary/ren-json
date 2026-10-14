@@ -9,6 +9,9 @@ const nodes = await $json(() => <Profile />, { props: { id } });
 response.end(JSON.stringify(nodes));
 ```
 
+The package is published on npm as `@maxenve/ren-json` under the MIT license;
+install it under its import name: `npm install ren-json@npm:@maxenve/ren-json`.
+
 There is no hydration, and no visual tree: the JSON is what the view
 means, for AI agents, tools, APIs and native clients to read without a
 parser and without guessing the data from the layout.
