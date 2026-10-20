@@ -1,6 +1,6 @@
 {
   "name": "ren-json",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "description": "A ren-core view rendered once to what it means, as data: nodes by ARIA role and microdata items, the visual hierarchy dissolved, after its tasks settle. No hydration.",
   "type": "module",
   "license": "MIT",
